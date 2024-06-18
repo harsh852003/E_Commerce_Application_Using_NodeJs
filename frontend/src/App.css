@@ -1,0 +1,97 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.nav-ul li{
+  display:inline-block;
+  padding: 5px; 
+}
+
+.nav-ul{
+  padding: 10px;
+  margin: 0;
+  top: 0;
+  background-color: aquamarine;
+
+}
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li a{
+  color:darkviolet;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: aquamarine;
+
+}
+ 
+.inputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border:2px solid darkviolet;
+  border-radius: 5px;
+}
+
+
+.login ,.register, .product{ 
+  margin-left:35%;
+  margin-top: 10%;
+}
+
+.button{
+  margin:25px ;
+  padding:7px ;
+  width: 150px ;
+  background-color:aquamarine ;
+  border: 2px solid darkviolet;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-list{
+  text-align: center;
+  margin: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 2px solid green;
+  padding : 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin :0px
+}
+.invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 25px;
+}
+
+.search-product{
+  width: 400px;
+  margin: 20px;
+  height:40px;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+ 
+ 
+ 
+
+
+
